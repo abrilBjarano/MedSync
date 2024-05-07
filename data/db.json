@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Liss",
+      "mail": "liss@gmail.com"
+    }
+  ],
+  "meds": [
+    {
+      "id": "paracetamol",
+      "med": "Paracetamol",
+      "Dosage": "9hrs, 15hrs, 21hrs"
+    },
+    {
+      "id": "ibuprofeno",
+      "med": "Ibuprofeno",
+      "Dosage": "8hrs, 16hrs, 24hrs"
+    },
+    {
+      "id": "omeprazol",
+      "med": "Omeprazol",
+      "Dosage": "8hrs, 20hrs"
+    },
+    {
+      "id": "amoxicilina",
+      "med": "Amoxicilina",
+      "Dosage": "8hrs"
+    },
+    {
+      "id": "loratadina",
+      "med": "Loratadina",
+      "Dosage": "24hrs"
+    },
+    {
+      "id": "dipirona",
+      "med": "Dipirona",
+      "Dosage": "6hrs, 12hrs, 18hrs"
+    },
+    {
+      "id": "metformina",
+      "med": "Metformina",
+      "Dosage": "12hrs"
+    },
+    {
+      "id": "tramadol",
+      "med": "Tramadol",
+      "Dosage": "6hrs"
+    },
+    {
+      "id": "simvastatina",
+      "med": "Simvastatina",
+      "Dosage": "20hrs"
+    },
+    {
+      "id": "lorazepam",
+      "med": "Lorazepam",
+      "Dosage": "8hrs, 16hrs"
+    }
+  ]
+}
