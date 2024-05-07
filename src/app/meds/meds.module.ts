@@ -6,6 +6,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CreateEditPageComponent } from './pages/create-edit-page/create-edit-page.component';
 import { MedPageComponent } from './pages/med-page/med-page.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MedPageComponent } from './pages/med-page/med-page.component';
   ],
   imports: [
     CommonModule,
-    MedsRoutingModule
+    MedsRoutingModule,
+    MaterialModule,
   ]
 })
 export class MedsModule { }
