@@ -1,4 +1,9 @@
 {
+  "comments": [
+    {
+      "info": "npm i --save-dev json-server"
+    }
+  ],
   "users": [
     {
       "id": 1,
