@@ -4,7 +4,7 @@
 <mat-sidenav-container fullscreen>
 
   <mat-sidenav #sidenav mode="side" [ngStyle]="{ width: '250px' }">
-    <mat-toolbar>
+    <mat-toolbar color="primary">
       <span>Menú</span>
       <span class="spacer"></span>
       <button mat-icon-button (click)="sidenav.toggle()">
@@ -21,7 +21,7 @@
   </mat-sidenav>
 
 
-  <mat-toolbar color="primary">
+  <mat-toolbar>
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
