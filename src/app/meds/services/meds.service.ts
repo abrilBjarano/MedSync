@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environments } from '../../../environments/environments.prod';
 import { Observable } from 'rxjs';
+import { Med } from '../interfaces/med.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -12,9 +13,8 @@ export class MedsService {
 
   constructor( private http: HttpClient ) { }
 
-
   getMeds(): Observable<Med[]> {
-
+    return this.http.get<Med[]>(`${ this.baseUrl}/meds`);
   }
 
 }
