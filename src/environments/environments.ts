@@ -1,5 +1,5 @@
 
 
 export const environments = {
-  baseUrl: 'http://abril-bejarano.com/api'
+  baseUrl: 'http://localhost:3000'
 }
